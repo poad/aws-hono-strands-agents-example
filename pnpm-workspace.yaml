@@ -1,0 +1,16 @@
+packages:
+  - .
+
+allowBuilds:
+  esbuild: false
+  protobufjs: false
+  unrs-resolver: false
+
+minimumReleaseAge: 10080 # 7 days in minutes
+
+overrides:
+  chokidar: '>=5'
+  eslint-import-resolver-typescript: '^4.4.4'
+  semver: '>=7'
+
+trustPolicy: no-downgrade

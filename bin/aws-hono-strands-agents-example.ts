@@ -1,9 +1,9 @@
 #!/usr/bin/env node
+import { AwsHonoStrandsAgentsExampleStack } from '../lib/aws-hono-strands-agents-example-stack.js';
 import * as cdk from 'aws-cdk-lib/core';
-import { AwsHonoStrandsAgentsExampleStack } from '../lib/aws-hono-strands-agents-example-stack';
 
 const app = new cdk.App();
-new AwsHonoStrandsAgentsExampleStack(app, 'AwsHonoStrandsAgentsExampleStack', {
+new AwsHonoStrandsAgentsExampleStack(app, 'AwsHonoStrandsAgentsExample', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
