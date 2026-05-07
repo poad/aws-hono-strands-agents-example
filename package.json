@@ -51,7 +51,7 @@
     "@opentelemetry/sdk-trace-node": "^2.7.1",
     "@opentelemetry/semantic-conventions": "^1.40.0",
     "@strands-agents/sdk": "^0.7.0",
-    "aws-cdk-lib": "^2.251.0",
+    "aws-cdk-lib": "^2.252.0",
     "constructs": "^10.6.0",
     "hono": "^4.12.16",
     "uuid": "^14.0.0",
