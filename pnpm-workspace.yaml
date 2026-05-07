@@ -6,11 +6,17 @@ allowBuilds:
   protobufjs: false
   unrs-resolver: false
 
+blockExoticSubdeps: true
+
 minimumReleaseAge: 10080 # 7 days in minutes
+
+minimumReleaseAgeExclude:
+  - ip-address@10.1.1
 
 overrides:
   chokidar: '>=5'
   eslint-import-resolver-typescript: '^4.4.4'
+  ip-address@<=10.1.0: ^10.1.1
   semver: '>=7'
 
 trustPolicy: no-downgrade
