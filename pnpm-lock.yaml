@@ -223,8 +223,8 @@ importers:
         specifier: ^2.33.0
         version: 2.33.0
       '@dotenvx/dotenvx':
-        specifier: ^1.64.0
-        version: 1.64.0
+        specifier: ^1.65.0
+        version: 1.65.0
       '@hono/otel':
         specifier: ^1.1.1
         version: 1.1.1(hono@4.12.18)
@@ -288,9 +288,6 @@ importers:
       hono:
         specifier: ^4.12.18
         version: 4.12.18
-      node:
-        specifier: runtime:^24.15.0
-        version: runtime:24.15.0
       uuid:
         specifier: ^14.0.0
         version: 14.0.0
@@ -314,8 +311,8 @@ importers:
         specifier: ^24.12.2
         version: 24.12.2
       aws-cdk:
-        specifier: ^2.1120.0
-        version: 2.1120.0
+        specifier: ^2.1121.0
+        version: 2.1121.0
       esbuild:
         specifier: ^0.28.0
         version: 0.28.0
@@ -334,6 +331,9 @@ importers:
       jiti:
         specifier: ^2.7.0
         version: 2.7.0
+      node:
+        specifier: runtime:^24.15.0
+        version: runtime:24.15.0
       tsx:
         specifier: ^4.21.0
         version: 4.21.0
@@ -358,8 +358,8 @@ packages:
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.1':
     resolution: {integrity: sha512-We4bmHaowOPHr+IQR4/FyTGjRfjgBj4ICMjtqmJeBDWad3Q/6St12NT07leNtyuukv2qMhtSZJQorD8KpKTwRA==}
 
-  '@aws-cdk/cloud-assembly-schema@53.20.0':
-    resolution: {integrity: sha512-4kLAUO+I8b4nlk1Z2P4n3Ye8UtqCiXk0kJMLUThBnyHLbdz06rwAb+qlb9WZOie7NtPluemVS243ifcBh/NVsQ==}
+  '@aws-cdk/cloud-assembly-schema@53.21.0':
+    resolution: {integrity: sha512-rkwL0LF/teth8eetxRMJaujmOpUYKbjt7RQ/Le0y2s8bQZoJdVPcG86+LPXqqi2RsTP423LQIw+2G2bpsB+yMw==}
     engines: {node: '>= 18.0.0'}
     bundledDependencies:
       - jsonschema
@@ -528,8 +528,8 @@ packages:
     resolution: {integrity: sha512-iY8yvjE0y651BixKNPgmv1WrQc+GZ142sb0z4gYnChDDY2YqI4P/jsSopBWrKfAt7LOJAkOXt7rC/hms+WclQQ==}
     engines: {node: '>=18.0.0'}
 
-  '@dotenvx/dotenvx@1.64.0':
-    resolution: {integrity: sha512-6+xRpZaWuHXEqnhBjae+VmQI9Uaqw5Uzu/ScpO+W7ww9Zp3lHSNBoNjFcUxhrCyc7pRGQzyDjhKzloqrPHERiQ==}
+  '@dotenvx/dotenvx@1.65.0':
+    resolution: {integrity: sha512-v4FA/Lw3pTEloLxBqTOaYDX6MNo0Jo7lGBsPZhwnJBqRJp0AzQg1ZZNxrFsh6HVC6QWeWrfIKLn0y2eyIXaVDg==}
     hasBin: true
 
   '@ecies/ciphers@0.2.6':
@@ -2201,8 +2201,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1120.0:
-    resolution: {integrity: sha512-vDVa0IX0FhizARdY/GLSParFglKbdHCIhM8IDmynrAv9w8uLLljzWMeLUOhC1XpMErDZ/npYEihAOjfKxTaMIw==}
+  aws-cdk@2.1121.0:
+    resolution: {integrity: sha512-cG7CHt/SytYTfwrK+BUNQpqmS1dwhjt8z6ExKL6GK4n+8/6ZCwFzxlZWA/jUd2+Y9xPc+Q8cLKfMqGmgxEXbkg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -2513,8 +2513,8 @@ packages:
   fast-uri@3.1.2:
     resolution: {integrity: sha512-rVjf7ArG3LTk+FS6Yw81V1DLuZl1bRbNrev6Tmd/9RaroeeRRJhAt7jg/6YFxbvAQXUCavSoZhPPj6oOx+5KjQ==}
 
-  fast-xml-builder@1.1.8:
-    resolution: {integrity: sha512-sDVBc2gg8pSKvcbE8rBmOyjSGQf0AdsbqvHeIOv3D/uYNoV4eCReQXyDF8Pdv8+m1FHazACypSz2hR7O2S1LLw==}
+  fast-xml-builder@1.1.9:
+    resolution: {integrity: sha512-jcyKVSEX13iseJqg7n/KWw+xnu/7fdrZ333Fac54KjHDIELVCfDDJXYIm6DTJ0Su4gSzrhqiK0DzY/wZbF40mw==}
 
   fast-xml-parser@5.7.2:
     resolution: {integrity: sha512-P7oW7tLbYnhOLQk/Gv7cZgzgMPP/XN03K02/Jy6Y/NHzyIAIpxuZIM/YqAkfiXFPxA2CTm7NtCijK9EDu09u2w==}
@@ -3485,7 +3485,7 @@ snapshots:
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.1': {}
 
-  '@aws-cdk/cloud-assembly-schema@53.20.0': {}
+  '@aws-cdk/cloud-assembly-schema@53.21.0': {}
 
   '@aws-crypto/crc32@5.2.0':
     dependencies:
@@ -3917,7 +3917,7 @@ snapshots:
 
   '@aws/lambda-invoke-store@0.2.4': {}
 
-  '@dotenvx/dotenvx@1.64.0':
+  '@dotenvx/dotenvx@1.65.0':
     dependencies:
       commander: 11.1.0
       dotenv: 17.4.2
@@ -5708,10 +5708,10 @@ snapshots:
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.273
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.1
-      '@aws-cdk/cloud-assembly-schema': 53.20.0
+      '@aws-cdk/cloud-assembly-schema': 53.21.0
       constructs: 10.6.0
 
-  aws-cdk@2.1120.0: {}
+  aws-cdk@2.1121.0: {}
 
   balanced-match@4.0.4: {}
 
@@ -6092,14 +6092,14 @@ snapshots:
 
   fast-uri@3.1.2: {}
 
-  fast-xml-builder@1.1.8:
+  fast-xml-builder@1.1.9:
     dependencies:
       path-expression-matcher: 1.5.0
 
   fast-xml-parser@5.7.2:
     dependencies:
       '@nodable/entities': 2.1.0
-      fast-xml-builder: 1.1.8
+      fast-xml-builder: 1.1.9
       path-expression-matcher: 1.5.0
       strnum: 2.2.3
 

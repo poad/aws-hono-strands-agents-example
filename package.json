@@ -17,7 +17,7 @@
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/aws-lambda": "^8.10.161",
     "@types/node": "^24.12.2",
-    "aws-cdk": "^2.1120.0",
+    "aws-cdk": "^2.1121.0",
     "esbuild": "^0.28.0",
     "eslint": "^10.3.0",
     "eslint-import-resolver-typescript": "^4.4.4",
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@aws-lambda-powertools/logger": "^2.33.0",
-    "@dotenvx/dotenvx": "^1.64.0",
+    "@dotenvx/dotenvx": "^1.65.0",
     "@hono/otel": "^1.1.1",
     "@hono/zod-validator": "^0.7.6",
     "@modelcontextprotocol/sdk": "^1.29.0",
@@ -57,14 +57,8 @@
     "uuid": "^14.0.0",
     "zod": "^4.4.3"
   },
+  "packageManager": "pnpm@11.1.1",
   "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.0.5",
-      "onFail": "download"
-    }
-  },
-  "engines": {
     "runtime": {
       "name": "node",
       "version": "^24.15.0",
