@@ -12,11 +12,11 @@
     "lint-fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@eslint/compat": "^2.0.5",
+    "@eslint/compat": "^2.1.0",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/aws-lambda": "^8.10.161",
-    "@types/node": "^24.12.2",
+    "@types/node": "^24.12.4",
     "aws-cdk": "^2.1121.0",
     "esbuild": "^0.28.0",
     "eslint": "^10.3.0",
@@ -26,14 +26,14 @@
     "jiti": "^2.7.0",
     "tsx": "^4.21.0",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.2",
-    "vite": "^8.0.11",
-    "vitest": "^4.1.5"
+    "typescript-eslint": "^8.59.3",
+    "vite": "^8.0.12",
+    "vitest": "^4.1.6"
   },
   "dependencies": {
     "@aws-lambda-powertools/logger": "^2.33.0",
     "@dotenvx/dotenvx": "^1.65.0",
-    "@hono/otel": "^1.1.1",
+    "@hono/otel": "^1.1.2",
     "@hono/zod-validator": "^0.7.6",
     "@modelcontextprotocol/sdk": "^1.29.0",
     "@opentelemetry/api": "^1.9.1",
@@ -51,7 +51,7 @@
     "@opentelemetry/sdk-trace-node": "^2.7.1",
     "@opentelemetry/semantic-conventions": "^1.41.1",
     "@strands-agents/sdk": "^0.7.0",
-    "aws-cdk-lib": "^2.253.0",
+    "aws-cdk-lib": "^2.253.1",
     "constructs": "^10.6.0",
     "hono": "^4.12.18",
     "uuid": "^14.0.0",
