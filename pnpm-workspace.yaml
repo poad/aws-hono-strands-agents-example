@@ -11,11 +11,7 @@ blockExoticSubdeps: true
 minimumReleaseAge: 10080 # 7 days in minutes
 
 minimumReleaseAgeExclude:
-  - pnpm@11.9.0
-  - protobufjs@8.2.0
-  - protobufjs@7.6.3
-  - hono@4.12.25
-  - nanoid@3.3.15
+  - pnpm@11.13.0
 
 overrides:
   '@opentelemetry/core@<2.8.0': ^2.8.0
