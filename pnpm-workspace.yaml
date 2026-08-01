@@ -11,10 +11,16 @@ blockExoticSubdeps: true
 minimumReleaseAge: 10080 # 7 days in minutes
 
 minimumReleaseAgeExclude:
-  - pnpm@11.13.0
+  - pnpm@11.19.0
+  - brace-expansion@5.0.8
+
+  - '@modelcontextprotocol/codemod@2.0.0'
+  - '@modelcontextprotocol/client@2.0.0'
+  - '@modelcontextprotocol/core@2.0.0'
+  - protobufjs@8.0.2 || 8.2.0 || 8.4.1 || 8.5.1 || 8.6.6
+  - '@opentelemetry/core@2.8.0'
   - '@hono/node-server@2.0.5'
   - '@opentelemetry/propagator-jaeger@2.9.0'
-  - brace-expansion@5.0.8
 
 overrides:
   '@hono/node-server@<2.0.5': ^2.0.5
@@ -22,14 +28,12 @@ overrides:
   '@opentelemetry/propagator-jaeger@<2.9.0': ^2.9.0
   brace-expansion@<=5.0.7: ^5.0.8
   chokidar: '>=5'
-  esbuild@>=0.17.0 <0.28.1: ^0.28.1
-  esbuild@>=0.27.3 <0.28.1: ^0.28.1
   eslint-import-resolver-typescript: '^4.4.5'
-  hono@<4.12.25: ^4.12.25
-  nanoid: '>=3.3.15'
-  protobufjs@<=7.6.2: ^7.6.3
   protobufjs@>=8.0.0 <8.2.0: ^8.2.0
   protobufjs@>=8.0.0 <=8.0.1: ^8.0.2
+  protobufjs@>=8.0.0 <=8.4.0: ^8.4.1
+  protobufjs@>=8.0.0 <=8.5.0: ^8.5.1
+  protobufjs@>=8.0.0 <=8.6.5: ^8.6.6
   semver: '>=7'
   uuid@<11.1.1: ^14
 
