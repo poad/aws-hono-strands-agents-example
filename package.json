@@ -50,9 +50,9 @@
     "@opentelemetry/sdk-trace-node": "^2.10.0",
     "@opentelemetry/semantic-conventions": "^1.43.0",
     "@strands-agents/sdk": "^0.7.0",
-    "aws-cdk-lib": "^2.262.1",
+    "aws-cdk-lib": "^2.262.2",
     "constructs": "^10.7.1",
-    "hono": "^4.12.32",
+    "hono": "^4.12.34",
     "uuid": "^14.0.1",
     "zod": "^4.4.3"
   },
@@ -64,7 +64,7 @@
     },
     "runtime": {
       "name": "node",
-      "version": "^24.18.1",
+      "version": "^24.19.0",
       "onFail": "download"
     }
   }
