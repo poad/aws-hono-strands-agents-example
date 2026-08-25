@@ -90,7 +90,7 @@ export const initialize = async () => {
   }
 
   const logRecordProcessor = exporters.logs ? new SimpleLogRecordProcessor(
-    exporters.logs,
+    {exporter: exporters.logs},
   ) : undefined;
 
   if (logRecordProcessor) {
