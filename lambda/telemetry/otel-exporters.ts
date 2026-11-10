@@ -1,8 +1,8 @@
 import { getAccessToken } from './access-token-manager.js';
 import { logger } from '../logging.js';
-import httpTraceing from '@opentelemetry/exporter-trace-otlp-http';
-import httpLogs from '@opentelemetry/exporter-logs-otlp-http';
-import httpMetrics from '@opentelemetry/exporter-metrics-otlp-http';
+import * as httpTraceing from '@opentelemetry/exporter-trace-otlp-http';
+import * as httpLogs from '@opentelemetry/exporter-logs-otlp-http';
+import * as httpMetrics from '@opentelemetry/exporter-metrics-otlp-http';
 
 
 import dotenv from '@dotenvx/dotenvx';
