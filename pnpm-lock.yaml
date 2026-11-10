@@ -141,8 +141,8 @@ importers:
         specifier: ^0.7.6
         version: 0.7.6(hono@4.13.4)(zod@4.4.3)
       '@modelcontextprotocol/client':
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^2.4.0
+        version: 2.4.0
       '@opentelemetry/api':
         specifier: ^1.9.1
         version: 1.9.1
@@ -242,7 +242,7 @@ importers:
         version: 2.7.0
       node:
         specifier: runtime:^24.19.0
-        version: runtime:24.20.0
+        version: runtime:24.22.2
       tsx:
         specifier: ^4.23.12
         version: 4.23.12
@@ -638,12 +638,12 @@ packages:
   '@js-sdsl/ordered-map@4.4.2':
     resolution: {integrity: sha512-iUKgm52T8HOE/makSxjqoWhe95ZJA1/G1sYsGev2JDKUSS14KAgg1LHb+Ba+IPow0xflbnSkOsZcO08C7w1gYw==}
 
-  '@modelcontextprotocol/client@2.0.0':
-    resolution: {integrity: sha512-8f1OghQ2rjzIOfqgUCP+8GiUWqRs89njoWLNqAe8kWmDePv3s1fZXseej+QXemssEuuOvLLmLO/kqM3IQHtISw==}
+  '@modelcontextprotocol/client@2.4.0':
+    resolution: {integrity: sha512-LgrD2OphHuG12vfKFKz6SOnq7bKHQmhGJIAYdD+MZBn2npHEyry6uD8zvktodtl5CQM85MO0anUyD9JwmUmxww==}
     engines: {node: '>=20'}
 
-  '@modelcontextprotocol/core@2.0.0':
-    resolution: {integrity: sha512-pJCEwGG7Lfr/+PQp9ZTwKXNeO5wzbfKL7H3MYpCorM4oFBoQrdjnBgEoqG+RjhsvS1FKrDbKux+M1HhlnGWqcA==}
+  '@modelcontextprotocol/core@2.4.0':
+    resolution: {integrity: sha512-z8QBKqdfXLPzkLQuG4xp8hrVEMm1PZ1IgxMN2sMbJiFiAKOWXnAzogXn2W4aqIBlP1ea6U5yiqVquvUNM1Cj6Q==}
     engines: {node: '>=20'}
 
   '@modelcontextprotocol/sdk@1.30.0':
@@ -2480,7 +2480,7 @@ packages:
     resolution: {integrity: sha512-dRB78srN/l6gqWulah9SrxeYnxeddIG30+GOqK/9OlLVyLg3HPnr6SqOWTWOXKRwC2eGYCkZ59NNuSgvSrpgOA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  node@runtime:24.20.0:
+  node@runtime:24.22.2:
     resolution:
       type: variations
       variants:
@@ -2488,9 +2488,9 @@ packages:
             archive: tarball
             bin:
               node: bin/node
-            integrity: sha256-FLW9etQKtfRxX7Ti+WSFjYINlCX+KR09ZfmJJua4nB4=
+            integrity: sha256-s9D3zDDSjkR0j4TdskyXqHNZJ0QPrv/JbjRFSRQWenk=
             type: binary
-            url: https://nodejs.org/download/release/v24.20.0/node-v24.20.0-aix-ppc64.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-aix-ppc64.tar.gz
           targets:
             - cpu: ppc64
               os: aix
@@ -2498,9 +2498,9 @@ packages:
             archive: tarball
             bin:
               node: bin/node
-            integrity: sha256-QOVgfl7LPbkZJyN3baLXXZZiYPx0p6nnMcG9Z92pa8g=
+            integrity: sha256-qpVJNJ5H3/qkLc+V1uBq3oxL2vyYCXmIO4h2dnDfOFo=
             type: binary
-            url: https://nodejs.org/download/release/v24.20.0/node-v24.20.0-darwin-arm64.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-darwin-arm64.tar.gz
           targets:
             - cpu: arm64
               os: darwin
@@ -2508,9 +2508,9 @@ packages:
             archive: tarball
             bin:
               node: bin/node
-            integrity: sha256-nlsmRM8Qe++2rvymdrltMpa8EBOAlvAi7TeNYjPtgfQ=
+            integrity: sha256-1eM21YjEW+DDfb1SzCmJVZMAnKSZeneh/QKBUTHtDlI=
             type: binary
-            url: https://nodejs.org/download/release/v24.20.0/node-v24.20.0-darwin-x64.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-darwin-x64.tar.gz
           targets:
             - cpu: x64
               os: darwin
@@ -2518,9 +2518,9 @@ packages:
             archive: tarball
             bin:
               node: bin/node
-            integrity: sha256-NRVgPiSHh5o5vHVxbxoq/9AnUAxkulDoRc9yyzMhkBM=
+            integrity: sha256-lcJkFQrOt/NDein9aYSST1+NFRHqPL1sUIuD9sVV2uI=
             type: binary
-            url: https://nodejs.org/download/release/v24.20.0/node-v24.20.0-linux-arm64.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-linux-arm64.tar.gz
           targets:
             - cpu: arm64
               os: linux
@@ -2528,9 +2528,9 @@ packages:
             archive: tarball
             bin:
               node: bin/node
-            integrity: sha256-pzSzbI0dFs5FXA65wymwfdEhwshVQ1UGSphhvJbDrcw=
+            integrity: sha256-9WQOG2VrZ/YA44z5xfJ460KMlJiZT1ykHWQG+6BgqfM=
             type: binary
-            url: https://nodejs.org/download/release/v24.20.0/node-v24.20.0-linux-ppc64le.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-linux-ppc64le.tar.gz
           targets:
             - cpu: ppc64le
               os: linux
@@ -2538,9 +2538,9 @@ packages:
             archive: tarball
             bin:
               node: bin/node
-            integrity: sha256-2MIktG7wHweKUj2bfbeSgjBvrigemGoVotv/6UfFMB4=
+            integrity: sha256-Nyhvy37wtDG3X/nc7VF/1zstSg6cRgJC1Ml5i4ubQkc=
             type: binary
-            url: https://nodejs.org/download/release/v24.20.0/node-v24.20.0-linux-s390x.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-linux-s390x.tar.gz
           targets:
             - cpu: s390x
               os: linux
@@ -2548,9 +2548,9 @@ packages:
             archive: tarball
             bin:
               node: bin/node
-            integrity: sha256-1ubRu7mtSssW1YC4m+ipyafkkJJuk708MKINRuFSv4o=
+            integrity: sha256-EevRbI14GcBnUhEiVQUnPXrqMFqN2FqcCusfvsI0MyA=
             type: binary
-            url: https://nodejs.org/download/release/v24.20.0/node-v24.20.0-linux-x64-musl.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-linux-x64-musl.tar.gz
           targets:
             - cpu: x64
               os: linux
@@ -2559,9 +2559,9 @@ packages:
             archive: tarball
             bin:
               node: bin/node
-            integrity: sha256-hV1YH4pOsagRfjQm3iX+AncFkv68+zE2mu4f+/7p6Ow=
+            integrity: sha256-NhcYxETkmvLKWhEMg7pqiQEUPyOrKF677wNB85H0gqk=
             type: binary
-            url: https://nodejs.org/download/release/v24.20.0/node-v24.20.0-linux-x64.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-linux-x64.tar.gz
           targets:
             - cpu: x64
               os: linux
@@ -2569,10 +2569,10 @@ packages:
             archive: zip
             bin:
               node: node.exe
-            integrity: sha256-McZ5l0TeilRgFkMJgEDGjDaX5WyU5AfWHQ5fpfNBkdc=
-            prefix: node-v24.20.0-win-arm64
+            integrity: sha256-9HlowhMQUHf2TGUQ8AdjLAyiV0gCoLUGfDJ8SavhxGg=
+            prefix: node-v24.22.2-win-arm64
             type: binary
-            url: https://nodejs.org/download/release/v24.20.0/node-v24.20.0-win-arm64.zip
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-win-arm64.zip
           targets:
             - cpu: arm64
               os: win32
@@ -2580,10 +2580,10 @@ packages:
             archive: zip
             bin:
               node: node.exe
-            integrity: sha256-bKyf+8qPakcJHktcdy4GBgScOHHLZ9kAwM7d5jDlRbo=
-            prefix: node-v24.20.0-win-x64
+            integrity: sha256-yhv/XY6tE8ny6kBKF220a9QwcE1bURNzQEn6Nl53meI=
+            prefix: node-v24.22.2-win-x64
             type: binary
-            url: https://nodejs.org/download/release/v24.20.0/node-v24.20.0-win-x64.zip
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-win-x64.zip
           targets:
             - cpu: x64
               os: win32
@@ -2591,9 +2591,9 @@ packages:
             archive: tarball
             bin:
               node: bin/node
-            integrity: sha256-LIxQfMsPIIEtlSa6jKRUsWUqre9o/IutBvB/sRIt0e8=
+            integrity: sha256-cK/SUKkn+8MvPZWlhZfv3xSqitGU6JQmj5uDCaLauE4=
             type: binary
-            url: https://unofficial-builds.nodejs.org/download/release/v24.20.0/node-v24.20.0-linux-arm64-musl.tar.gz
+            url: https://unofficial-builds.nodejs.org/download/release/v24.22.2/node-v24.22.2-linux-arm64-musl.tar.gz
           targets:
             - cpu: arm64
               os: linux
@@ -2602,14 +2602,14 @@ packages:
             archive: tarball
             bin:
               node: bin/node
-            integrity: sha256-muE5n+9L2JkOFXc84TJ7M2oguel9jHVJ9PQspzxD9WI=
+            integrity: sha256-hn4yLWcpTpxAXxDK5dcO0uSUC7Nn+kfby1FRyYmdfAQ=
             type: binary
-            url: https://unofficial-builds.nodejs.org/download/release/v24.20.0/node-v24.20.0-linux-x64-musl.tar.gz
+            url: https://unofficial-builds.nodejs.org/download/release/v24.22.2/node-v24.22.2-linux-x64-musl.tar.gz
           targets:
             - cpu: x64
               os: linux
               libc: musl
-    version: 24.20.0
+    version: 24.22.2
     hasBin: true
 
   object-assign@4.1.1:
@@ -3482,9 +3482,9 @@ snapshots:
 
   '@js-sdsl/ordered-map@4.4.2': {}
 
-  '@modelcontextprotocol/client@2.0.0':
+  '@modelcontextprotocol/client@2.4.0':
     dependencies:
-      '@modelcontextprotocol/core': 2.0.0
+      '@modelcontextprotocol/core': 2.4.0
       cross-spawn: 7.0.6
       eventsource: 3.0.7
       eventsource-parser: 3.1.1
@@ -3492,7 +3492,7 @@ snapshots:
       pkce-challenge: 5.0.1
       zod: 4.4.3
 
-  '@modelcontextprotocol/core@2.0.0':
+  '@modelcontextprotocol/core@2.4.0':
     dependencies:
       zod: 4.4.3
 
@@ -5367,7 +5367,7 @@ snapshots:
       fetch-blob: 3.2.0
       formdata-polyfill: 4.0.10
 
-  node@runtime:24.20.0: {}
+  node@runtime:24.22.2: {}
 
   object-assign@4.1.1: {}
 
